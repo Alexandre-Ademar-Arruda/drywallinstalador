@@ -38,8 +38,13 @@ header{
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #ccc;
-    border-radius: 10px;
+    background-color: #87CEEB;
+
+    /*
+    2. Azul Claro
+<div style="width: 100px; height: 50px; background-color: #87CEEB; border: 1px solid #000;"></div> **Hexadecimal:** `#87CEEB`
+    -->
+    border-radius: 10px;*/
     
 }
 .container{
@@ -48,9 +53,16 @@ header{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: gold;
+    background-color: #4169E1;
+    
+    /*
+        . Azul Royal
+        <div style="width: 100px; height: 50px; background-color: #4169E1;
+        border: 1px solid #000;"></div> **Hexadecimal:** `#4169E1`
+    */
+
     gap: 10px;
-    border: gold 10px solid;
+    border: #4169E1 10px solid;
 }
 
 div{
@@ -70,7 +82,7 @@ div{
 
 .orcamento{
    
-    background-color: #fff;
+    background-color: #87CEEB;
     width: 300px;
     height: 95px;
   
@@ -82,7 +94,7 @@ div{
     border-radius: 10px;
     align-items: center;
     justify-content:center;
-    background-color: gold;
+    background-color: #4169E1;
     /*background-color: #25D366;*/
 }
 
@@ -101,16 +113,16 @@ div{
 
 
 .orcamento-formulario:hover {
-    background-color: gold;
-    border-color: 2px gold solid;
+    background-color: #4169E1;
+    border-color: 2px #4169E1;
     border-radius: 10px;
     padding: 3px;
     font-weight: bold;
 }
 
 .orcamento-zap:hover{
-    background-color: gold;
-    border-color: 2px gold solid;
+    background-color: #4169E1;
+    border-color: 2px #4169E1;
     border-radius: 10px;
     padding: 3px;
     font-weight: bold;
@@ -125,7 +137,7 @@ a{
 
 .regioes-atendidas a:hover{
 
-    color: gold;
+    color: #4169E1;
     
     background-color: black;
     
@@ -145,9 +157,9 @@ a{
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: #25D366;
+    background-color: #4169E1;
     border-radius: 10px;
-    border: 5px gold solid;
+    border: 5px #4169E1;
     margin-bottom: 10px;     
    
 }
@@ -161,7 +173,7 @@ ul.regioes-atendidas{
 
     text-align: left;
 
-    background-color: #ccc;
+    background-color:  #FFFFFF;
 
     border-radius: 10px;
 
@@ -181,17 +193,17 @@ ul.regioes-atendidas::-webkit-scrollbar {
 }
 
 ul.regioes-atendidas::-webkit-scrollbar-track {
-    background: #fff; /* Cor de fundo da trilha da barra de rolagem */
+    background: #FFFFFF; /* Cor de fundo da trilha da barra de rolagem */
     border-radius: 20px; /* Aplicação do border-radius na trilha da barra de rolagem */
 }
 
 ul.regioes-atendidas::-webkit-scrollbar-thumb {
-    background: #888; /* Cor da parte deslizante da barra de rolagem */
+    background:  #FFFFFF; /* Cor da parte deslizante da barra de rolagem */
     border-radius: 20px; /* Aplicação do border-radius na parte deslizante */
 }
 
 ul.regioes-atendidas::-webkit-scrollbar-thumb:hover {
-    background: #fff; /* Cor da parte deslizante da barra de rolagem quando em hover */
+    background: #FFFFFF; /* Cor da parte deslizante da barra de rolagem quando em hover */
 }
 
  
@@ -199,7 +211,7 @@ h1{
 
     width: 300px;
 
-    background-color:  #fff;
+    background-color:  #FFFFFF;
 
     border-radius: 10px;
 
@@ -230,7 +242,7 @@ h2{
 
     width: 300px;
 
-    background-color:  #fff;
+    background-color:  #FFFFFF;
 
     border-radius: 10px;
 
